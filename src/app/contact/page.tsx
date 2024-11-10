@@ -21,7 +21,7 @@ export default function Contact() {
             </div>
             <div>
               <label htmlFor="message" className="block text-sm font-medium text-orange-600">Message</label>
-              <textarea id="message" name="message" rows="4" className="mt-1 p-3 block w-full border border-gray-300 rounded" placeholder="Your Message" required></textarea>
+              <textarea id="message" name="message"  className="mt-1 p-3 block w-full border border-gray-300 rounded" placeholder="Your Message" required></textarea>
             </div>
             <button type="submit" className="w-full bg-yellow-600 text-white py-3 rounded hover:bg-yellow-700 transition duration-200">Send Message</button>
           </form>
